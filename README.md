@@ -10,7 +10,7 @@
       background: linear-gradient(to right, #74ebd5, #acb6e5); 
       min-height: 100vh; 
       padding: 20px; 
-      color: #333; 
+      color: #FFF0F5; 
     }
     h2 {
       text-align: center; 
