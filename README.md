@@ -121,7 +121,7 @@ function calculate(animal) {
     normalPercent = {
       neu: [51, 84],
       band: [0, 1],
-      eos: [0, 1],
+      eos: [0, 9],
       baso: [0, 1],
       lymph: [8, 38],
       mono: [1, 9]
