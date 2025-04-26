@@ -1,11 +1,12 @@
 <html lang="th">
 <head>
+  <link href="https://fonts.googleapis.com/css2?family=Mali&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WBC Differential Calculator (Dog & Cat)</title>
   <style>
     body { 
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+      font-family: 'Mali', Tahoma, Geneva, Verdana, sans-serif; 
       background: linear-gradient(to right, #FFE4E1, #FFE4E1); 
       min-height: 100vh; 
       padding: 20px; 
