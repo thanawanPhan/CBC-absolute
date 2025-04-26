@@ -6,7 +6,7 @@
   <style>
     body { 
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-      background: linear-gradient(to right, #FFE4E1, #FFFACD); 
+      background: linear-gradient(to right, #FFE4E1, #FFE4E1); 
       min-height: 100vh; 
       padding: 20px; 
       color: #333; 
@@ -15,10 +15,9 @@
       text-align: center; 
       margin-bottom: 20px;
       color: #fff;
-      text-shadow: 1px 1px 2px #555;
-    }
+      }
     .form-container {
-      background: #fff;
+      background: #FFFACD;
       padding: 20px;
       border-radius: 12px;
       max-width: 500px;
