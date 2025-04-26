@@ -62,7 +62,7 @@
       width: 120%;
       margin-top: 20px;
       border-collapse: collapse;
-      table-layout: fixed;
+      table-layout: center;
       background: #fff;
       border-radius: 8px;
       overflow: hidden;
