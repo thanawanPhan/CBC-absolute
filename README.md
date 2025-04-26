@@ -57,7 +57,7 @@
       background-color: #FF6347;
     }
     table {
-      width: 100%;
+      width: 120%;
       margin-top: 20px;
       border-collapse: collapse;
       table-layout: fixed;
