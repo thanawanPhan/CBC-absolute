@@ -19,7 +19,7 @@
       }
     .form-container {
       background: #FFFACD;
-      padding: 20px;
+      padding: 16px;
       border-radius: 12px;
       max-width: 500px;
       margin: auto;
@@ -161,4 +161,7 @@ function calculate(animal) {
 </script>
 
 </body>
+<footer style="text-align:center; margin-top: 30px; font-size: 14px; color: gray;">
+  Created by Cream Vet84
+</footer>
 </html>
