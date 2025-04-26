@@ -159,9 +159,9 @@ function calculate(animal) {
   document.getElementById("result").innerHTML = resultHTML;
 }
 </script>
-
-</body>
 <footer style="text-align:center; margin-top: 30px; font-size: 14px; color: gray;">
   Created by Cream Vet84
 </footer>
+</body>
+
 </html>
