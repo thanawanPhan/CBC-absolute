@@ -9,12 +9,12 @@
       background: linear-gradient(to right, #FFE4E1, #FFE4E1); 
       min-height: 100vh; 
       padding: 20px; 
-      color: #333; 
+      color: #8B4513; 
     }
     h2 {
       text-align: center; 
       margin-bottom: 20px;
-      color: #fff;
+      color: #000000;
       }
     .form-container {
       background: #FFFACD;
