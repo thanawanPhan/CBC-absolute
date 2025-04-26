@@ -60,6 +60,7 @@
       width: 100%;
       margin-top: 20px;
       border-collapse: collapse;
+      table-layout: fixed;
       background: #fff;
       border-radius: 12px;
       overflow: hidden;
