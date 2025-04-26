@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WBC Differential Calculator</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    input { width: 80px; margin-bottom: 10px; }
+    button { padding: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+    button:hover { background-color: #45a049; }
+    table { border-collapse: collapse; margin-top: 20px; width: 100%; }
+    td, th { border: 1px solid #ccc; padding: 8px; text-align: center; }
+  </style>
+</head>
+<body>
+  <h2>คำนวณค่า Absolute WBC Differential</h2>
+
+  <label>WBC (x1,000): <input type="number" id="wbc" step="0.01"></label><br><br>
+  <label>Neutrophils (%): <input type="number" id="neu" step="0.1"></label><br>
+  <label>Eosinophils (%): <input type="number" id="eos" step="0.1"></label><br>
+  <label>Basophils (%): <input type="number" id="baso" step="0.1"></label><br>
+  <label>Lymphocytes (%): <input type="number" id="lymph" step="0.1"></label><br>
+  <label>Monocytes (%): <input type="number" id="mono" step="0.1"></label><br><br>
+
+  <button onclick="calculate()">คำนวณ</button>
+
+  <div id="result"></div>
+
+  <script>
+    function calculate() {
+      const wbc = parseFloat(document.getElementById("wbc").value) * 1000;
+      const neu = parseFloat(document.getElementById("neu").value);
+      const eos = parseFloat(document.getElementById("eos").value);
+      const baso = parseFloat(document.getElementById("baso").value);
+      const lymph = parseFloat(document.getElementById("lymph").value);
+      const mono = parseFloat(document.getElementById("mono").value);
+
+      const resultHTML = `
+        <table>
+          <tr><th>เซลล์</th><th>Absolute (เซลล์/µL)</th><th>ช่วงค่าปกติ</th></tr>
+          <tr><td>Neutrophils (${neu}%)</td><td>${Math.round(wbc * neu / 100)}</td><td>2,000–7,000</td></tr>
+          <tr><td>Eosinophils (${eos}%)</td><td>${Math.round(wbc * eos / 100)}</td><td>50–500</td></tr>
+          <tr><td>Basophils (${baso}%)</td><td>${Math.round(wbc * baso / 100)}</td><td>0–100</td></tr>
+          <tr><td>Lymphocytes (${lymph}%)</td><td>${Math.round(wbc * lymph / 100)}</td><td>1,000–4,800</td></tr>
+          <tr><td>Monocytes (${mono}%)</td><td>${Math.round(wbc * mono / 100)}</td><td>200–800</td></tr>
+        </table>
+      `;
+      document.getElementById("result").innerHTML = resultHTML;
+    }
+  </script>
+</body>
+</html>
