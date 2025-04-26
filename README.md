@@ -8,7 +8,7 @@
   
   <style>
     body { 
-      font-family: 'Mali', cursive; 
+      font-family: 'Mali&display', cursive; 
       background: linear-gradient(to right, #FFE4E1, #FFE4E1); 
       min-height: 100vh; 
       padding: 20px; 
