@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="th">
 <head>
   <meta charset="UTF-8">
@@ -10,7 +9,7 @@
       background: linear-gradient(to right, #74ebd5, #acb6e5); 
       min-height: 100vh; 
       padding: 20px; 
-      color: #FFF0F5; 
+      color: #333; 
     }
     h2 {
       text-align: center; 
